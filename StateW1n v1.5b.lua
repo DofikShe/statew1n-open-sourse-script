@@ -189,12 +189,12 @@ local anti_aim_different = {'', ' ', '  ', '   ', '    ', '     '
 
 -- Добавлена вкладка Rage
 current_tab = ui.new_combobox('AA', 'Anti-aimbot angles', 'Tabs', {'Home', 'Rage', 'Anti-Aim', 'Misc/Vis'})
-local text1 = ui.new_label('AA', 'Anti-aimbot angles', '\a4169e1ff✦StateW1n.pub \bBeta✦ ~ \a3498dbff⇘Version 1.5⇙', 'string')
-local text2 = ui.new_label('AA', 'Anti-aimbot angles', '\a1abc9cfflast update ~ 7.11.2025', 'string')
+local text1 = ui.new_label('AA', 'Anti-aimbot angles', '\a4169e1ff✦StateW1n.pub \bBeta✦ | SUPPORT END ~ \a3498dbff⇘Version 1.5b⇙ | SUPPORT END', 'string')
+local text2 = ui.new_label('AA', 'Anti-aimbot angles', '\a1abc9cfflast update ~ 15.03.2026 | SUPPORT END', 'string')
 local text3 = ui.new_label('AA', 'Anti-aimbot angles', '\affff00ffif you find a bug, write to Offical Telegram', 'string')
-local text4 = ui.new_label('AA', 'Anti-aimbot angles', '\a9b59b6ff✟hrisitosense.top is best crack skeet❤', 'string')
-local text5 = ui.new_label('AA', 'Anti-aimbot angles', '\a9b59b6ffCreators: ✿dafer1337✿ ♱ oexxeu ♱', 'string')
-local telegram_btn = ui.new_button('AA', 'Anti-aimbot angles', ' Official Telegram', function()
+local text4 = ui.new_label('AA', 'Anti-aimbot angles', '\a9b59b6ffsupport end❤', 'string')
+local text5 = ui.new_label('AA', 'Anti-aimbot angles', '\a9b59b6ffDeveloper: dafer1337 | SUPPORT END', 'string')
+local telegram_btn = ui.new_button('AA', 'Anti-aimbot angles', ' Official Telegram | SUPPORT END', function()
     panorama.open('CSGOHud').SteamOverlayAPI.OpenExternalBrowserURL('https://t.me/statew1n')
     end)
 	
